@@ -1,0 +1,24 @@
+{
+  "name": "userbenefit/client-sdk",
+  "description": "test",
+  "authors": [
+    {
+      "name": "Aiden",
+      "email": "hello@devtopia.net"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "6.5.14"
+  },
+  "autoload": {
+    "psr-4": {
+      "Userbenefit\\Client\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Userbenefit\\Client\\Tests\\": "tests/"
+    }
+  }
+}
